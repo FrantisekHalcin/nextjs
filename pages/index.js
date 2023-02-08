@@ -325,31 +325,31 @@ export function nacitajRecenzie() {
                 "meno": "Janci",
                 "hodnotenie": 5,
                 "obsah": "RentACar je nás dlhoročný partner, spolupracujeme už dlhý čas. Vzhľadom na náročné prostredie, v ktorom        pracujeme, oceňujeme hlavne ich flexibilitu a ústretovosť.",
-                "datum": "2022-03-18"
+                "datum": "2023-01-12"
             },
             {
                 "meno": "Peto",
                 "hodnotenie": 4,
                 "obsah": "Ďakujeme za spoľahlivé služby a kvalitný servis Vašej spoločnosti. Určite sa na Vás obrátime aj v budúcnosti.",
-                "datum": "2022-05-20"
+                "datum": "2022-10-13"
             },
             {
                 "meno": "Juro",
                 "hodnotenie": 5,
                 "obsah": "So službami spoločnosti Rentacar sme nadmieru spokojní. Vždy nám vedia rýchlo, včas a za dobrú cenu dodať autá podľa požiadavky. Služby využívame už dlhodobo a plánujeme spoluprácu aj do budúcnosti.",
-                "datum": "2022-06-28"
+                "datum": "2022-08-03"
             },
             {
                 "meno": "Lenka",
                 "hodnotenie": 4,
                 "obsah": "Super služby, ochota personálu.",
-                "datum": "2022-08-03"
+                "datum": "2022-06-28"
             },
             {
                 "meno": "Magda",
                 "hodnotenie": 3,
                 "obsah": "Ochotu personálu hodnotím pozitívne. Auto mohlo byť aj čistejšie...",
-                "datum": "2022-10-13"
+                "datum": "2022-03-18"
             }
         ]
     }

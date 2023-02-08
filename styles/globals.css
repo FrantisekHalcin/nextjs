@@ -154,6 +154,7 @@ button {
   color: rgb(4, 39, 73);
   padding: 30px;
   text-align: center;
+  width:inherit;
 }
 
 
@@ -227,6 +228,10 @@ img {
     width: 100%;
   }
 
+  .vstupnyFormular {
+    width: 100%;
+  }
+
   .recenzia {
     width: 100%;
   }
@@ -258,9 +263,12 @@ img {
     max-width: 100%;
     height: auto;
   }
-
-
+  
   .navLink {
     margin-top: 4px;
+  }
+
+  .home {
+    font-size: 14px;
   }
 }

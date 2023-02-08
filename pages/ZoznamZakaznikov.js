@@ -35,7 +35,7 @@ class ZoznamZakaznikov extends React.Component {
             <table className="home">
                 <thead> 
                 <tr>
-                        <th></th><th colSpan={2}><input type="search" placeholder="meno / priezvisko" onChange={(event=>this.setState({hladaneMeno: event.target.value}))}/></th><th></th><th><input type="search" placeholder="špz" style={{width: "50px"}} onChange={(event=>this.setState({hladaneSpz: event.target.value}))}/></th><th></th><th></th></tr>
+                        <th></th><th colSpan={2}><input type="search" placeholder="meno / priezvisko" style={{width: "135px"}} onChange={(event=>this.setState({hladaneMeno: event.target.value}))}/></th><th></th><th><input type="search" placeholder="špz" style={{width: "50px"}} onChange={(event=>this.setState({hladaneSpz: event.target.value}))}/></th><th></th><th></th></tr>
                     <tr>
                         <th></th><th>Meno</th><th>Priezvisko</th><th>Auto</th><th>ŠPZ</th><th className="schovaj">Vyzdvihnutie</th><th className="schovaj">Vrátenie</th></tr></thead><tbody>
                     {this.state.zakaznici.filter((zakaznik)=>zakaznik.meno.toUpperCase().includes(this.state.hladaneMeno.toUpperCase()) && zakaznik.spzAuta.toString().includes(this.state.hladaneSpz.toString()) || zakaznik.priezvisko.toUpperCase().includes(this.state.hladaneMeno.toUpperCase()) &&
