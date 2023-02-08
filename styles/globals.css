@@ -146,6 +146,10 @@ button {
   width: 200px;
 }
 
+#mapa2 {
+  display:none;
+}
+
 .baner {
   background-image: url("../public/images/sea.png");
   height: 200px;
@@ -270,5 +274,17 @@ img {
 
   .home {
     font-size: 14px;
+  }
+
+  #homeTabulka {
+    width: 100%;
+  }
+
+  #mapa {
+    display: none;
+  }
+
+  #mapa2 {
+    display:block;
   }
 }

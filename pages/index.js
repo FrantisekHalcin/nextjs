@@ -378,14 +378,14 @@ export class ZakaznikHome extends React.Component {
                 <p>Na trhu pôsobíme od roku 2017. Orientujeme sa na všetkých zákazníkov, ktorí si potrebujú požičať motorové vozidlo, alebo využiť možnosť rýchlej a pohodlnej prepravy na letisko či akékoľvek iné miesto podľa ich potreby. V rámci pôsobnosti našej spoločnosti na celom území Slovenska vám vieme zabezpečiť regionálne zastúpenie čo najbližšie k vám a garantovať rýchle, flexibilné a spoľahlivé služby.</p><br /><br />
                 <div style={{ width: "100%", display: "block" }}>
 
-                    <table style={{ width: "80%", margin: "auto" }}><tbody>
+                    <table id="homeTabulka" style={{ width: "80%", margin: "auto" }}><tbody>
 
-                        <tr><td rowSpan="8" style={{ width: "40%" }}><img src="images/adress.jpg" alt="adress" width={300} style={{ width: "100%" }} /></td><th>Naša adresa:</th><td>Nová 34, 05907 Poprad</td></tr>
+                        <tr><td id="mapa" rowSpan="8" style={{ width: "40%" }}><img src="images/adress.jpg" alt="adress" width={300} style={{ width: "100%" }} /></td><th>Naša adresa:</th><td>Nová 34, 05907 Poprad</td></tr>
                         <tr><th>Telefónne číslo:</th><td>00421/901654321</td></tr>
                         <tr><th>Email:</th><td>rentacar@info.sk</td></tr>
                         <tr><th>Otváracie hodiny:</th><td>Každý deň od 8:00 do 19:00</td></tr>
-                    </tbody></table>
-                </div><br /><br /><br />
+                    </tbody></table><br />
+                </div><img src="images/adress.jpg" id="mapa2" alt="adress" width={300} style={{ width: "80%", margin: "auto"}} /><br /><br />
 
 
                 <p>Zabezpečujeme regionálne zastúpenie v nasledovných lokalitách: Poprad, Košice, Prešov. Rýchle, profesionálne a flexibilné služby tak vieme zabezpečiť čo najbližšie k vám.
