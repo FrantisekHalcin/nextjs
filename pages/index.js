@@ -79,12 +79,12 @@ export function nacitajAuta() {
             {
                 "nazov": "Audi A6",
                 "spz": 5,
-                "typ": "hatchback",
+                "typ": "limuzína",
                 "kapacita": 5,
                 "objem": 2.5,
                 "palivo": "hybrid",
                 "spotreba": 7.3,
-                "koeficient": 1.7,
+                "koeficient": 2.4,
                 "rok": 2021,
                 "sks": "áno",
                 "dostupnost": "",
@@ -93,7 +93,7 @@ export function nacitajAuta() {
             {
                 "nazov": "Seat Alhambra",
                 "spz": 6,
-                "typ": "hatchback",
+                "typ": "kombi",
                 "kapacita": 8,
                 "objem": 1.8,
                 "palivo": "nafta",
@@ -121,7 +121,7 @@ export function nacitajAuta() {
             {
                 "nazov": "Mercedes Benz",
                 "spz": 8,
-                "typ": "hatchback",
+                "typ": "minibus",
                 "kapacita": 8,
                 "objem": 2.5,
                 "palivo": "nafta",

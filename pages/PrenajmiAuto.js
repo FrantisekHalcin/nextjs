@@ -141,7 +141,7 @@ export class PonukaDostupnychAut extends React.Component {
             {auta.map((auto, poradie) => {
                 if (auto.dostupnost == "áno") {
                     return <tr key={poradie}>
-                        <td><img src={auto.imgUrl} alt={auto.nazov} height="40" /></td>
+                        <td><img src={auto.imgUrl} alt={auto.nazov} style={{minWidth: "50px"}} height="40"/></td>
                         <td>{auto.nazov}</td>
                         <td>{Math.round(auto.koeficient * cenaPrenajmu)} €</td>
                         <td className='p-0'><DetailAuta poradie={poradie} meno={auto.nazov} img={auto.imgUrl} typ={auto.typ} sks={auto.sks} objem={auto.objem} palivo={auto.palivo} spotreba={auto.spotreba} dostupnost={auto.dostupnost} rok={auto.rok} kapacita={auto.kapacita} /></td>
